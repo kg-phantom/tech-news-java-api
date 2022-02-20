@@ -4,6 +4,9 @@ import com.technews.repository.CommentRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
+import com.technews.model.Comment;
+
+import java.util.List;
 
 @RestController
 public class CommentController {
